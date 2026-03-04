@@ -1,9 +1,9 @@
 # Operadores matemáticos (usando w e x)
 
-x = 35
-y = 18
+w = 35
+x = 18
 
-print(w + y)    # soma → 53  
+print(w + x)    # soma → 53  
 print(w - x)    # subtração → 17
 print(w * x)    # multiplicação → 630
 print(w / x)    # divisão → 1.944 ...

@@ -13,3 +13,4 @@ print("Texto (string):", nome)
 # Booleano: valores lógicos True (verdadeiro) ou False (falso)
 teste = True
 print("Valor lógico (booleano):", teste)
+

@@ -1,34 +1,32 @@
 # Operadores matemáticos (usando w e x)
-
 w = 35
 x = 18
 
-print(w + x)    # soma → 53  
-print(w - x)    # subtração → 17
-print(w * x)    # multiplicação → 630
-print(w / x)    # divisão → 1.944 ...
-print(w // x)   # divisão inteira → 1
-print(w % x)    # resto da divisão → 17
-print(w ** 2)   # potência → 1225
+print("Soma:", w + x)            # 53
+print("Subtração:", w - x)       # 17
+print("Multiplicação:", w * x)   # 630
+print("Divisão:", w / x)         # 1.944...
+print("Divisão inteira:", w // x) # 1
+print("Resto:", w % x)           # 17
+print("Potência:", w ** 2)       # 1225
+
 
 # Operadores de comparação (usando y e z)
-
-y = 10 
+y = 10
 z = 60
 
-print(y > z)    # maior que → False
-print(y < z)    # menor que → True
-print(y == z)   # igual → False
-print(y != z)   # diferente → True 
-print(y >= 10)  # maior ou igual → True 
-print(z <= 60)  # menor ou igual → True
+print("y > z:", y > z)           # False
+print("y < z:", y < z)           # True
+print("y == z:", y == z)         # False
+print("y != z:", y != z)         # True
+print("y >= 10:", y >= 10)       # True
+print("z <= 60:", z <= 60)       # True
 
 
-#Operadores Lógicos (usando feliz e triste)
-
+# Operadores lógicos (usando feliz e triste)
 feliz = True
 triste = False
 
-print(feliz and triste) # AND → False
-print(feliz or triste)  # OR → True
-print(not feliz)    # NOT → False
+print("feliz AND triste:", feliz and triste)  # False
+print("feliz OR triste:", feliz or triste)    # True
+print("NOT feliz:", not feliz)                # False
